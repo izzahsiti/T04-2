@@ -24,12 +24,17 @@
     </nav>
   </header>
 
+  <h1>Appliance Energy Consumption</h1>
+  <div id="content"></div>
+  <!-- Give the SVG a size so shapes can be seen -->
+  <svg width="300" height="150"></svg>
+
+  <!-- Previous home page content, kept for later
   <main>
     <section class="hero">
-      <h1>Understand What Powers Your Home</h1>
+      <h2>Understand What Powers Your Home</h2>
       <p>Explore how much energy household appliances use across the Australian market, and make smarter choices for your wallet and the planet.</p>
     </section>
-
     <section class="content-grid">
       <div class="card">
         <h2>Why It Matters</h2>
@@ -45,12 +50,16 @@
       </div>
     </section>
   </main>
+  -->
 
   <footer>
     <p>&copy; <span id="year"></span> Izzah. Built for COS30045.</p>
     <p class="genai-note">GenAI acknowledgement: GitHub Copilot was used to assist with drafting this code. See README.md for details.</p>
   </footer>
 
+  <!-- Load D3 first, then your D3 code file -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="energy-d3.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
