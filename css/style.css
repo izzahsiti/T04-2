@@ -136,3 +136,9 @@ footer {
   margin-top: 0.3rem;
   font-size: 0.78rem;
 }
+
+.responsive-svg-container {
+margin: 0 auto; /* center */
+width: 100%; /* fill parent width */
+max-width: 1200px; /* cap max width */
+}

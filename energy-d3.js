@@ -1,3 +1,5 @@
+/* T04-2 demo (temporarily disabled)
+
 d3.select("h1")
     .style("color", "green");
 d3.select("div")
@@ -12,3 +14,5 @@ d3.select("svg")
     .attr("width", 100)
     .attr("height", 30)
     .style("fill", "green");
+
+*/
