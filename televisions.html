@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Televisions | Appliance Energy Consumption AU</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo" aria-label="Home">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13 2L4 14H11L10 22L20 9H13L13 2Z" fill="#FFC72C" stroke="#1B3A57" stroke-width="1"/>
+        </svg>
+        <span>PowerWatch</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link" data-page="index">Home</a></li>
+        <li><a href="televisions.html" class="nav-link" data-page="televisions">Televisions</a></li>
+        <li><a href="about.html" class="nav-link" data-page="about">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero small">
+      <h1>Television Energy Consumption</h1>
+      <p>Placeholder overview of TVs currently available on the Australian market.</p>
+    </section>
+
+    <section class="content-grid">
+      <div class="card">
+        <h2>32" LED</h2>
+        <p>Placeholder: ~45 kWh/year. Typically the most efficient category, suited to bedrooms and small living spaces.</p>
+      </div>
+      <div class="card">
+        <h2>55" QLED</h2>
+        <p>~120 kWh/year. Higher brightness and colour volume increases running cost versus standard LED.</p>
+      </div>
+      <div class="card">
+        <h2>65" OLED</h2>
+        <p>~150 kWh/year. Per-pixel lighting is efficient for dark scenes but average use is higher than LED.</p>
+      </div>
+    </section>
+
+    <p class="note">This data will be replaced with the real, cleaned dataset from Exercise T01(b) once processed in KNIME.</p>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Izzah. Built for COS30045.</p>
+    <p class="genai-note">GenAI acknowledgement: GitHub Copilot was used to assist with drafting this code. See README.md for details.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
