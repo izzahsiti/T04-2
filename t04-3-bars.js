@@ -1,3 +1,4 @@
+/*
 // Create an SVG inside the responsive container
 const svg = d3.select(".responsive-svg-container")
 .append("svg")
@@ -11,3 +12,4 @@ svg
 .attr("width", 414)
 .attr("height", 16)
 .attr("fill", "blue");
+*/
